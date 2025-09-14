@@ -1,5 +1,6 @@
 /// A "Hello, world!" program.
 
+/// a documentation for main
 fn main() {
     print("Hello, world!");
 }
