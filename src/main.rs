@@ -1,14 +1,11 @@
 /// A "Hello, world!" program.
 
 fn main() {
-    hello_world();
-    goodbye_world();
+    print("Hello, world!");
+    print("Goodbye, world!");
 }
 
-fn hello_world() {
-    println!("Hello, world!");
-}
-
-fn goodbye_world() {
-    println!("Goodbye, world!");
+/// a function that prints a message
+fn print(m: &str) {
+    println!("{m}");
 }
